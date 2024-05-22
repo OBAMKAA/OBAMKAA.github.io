@@ -1,11 +1,17 @@
 
 body{
-background: rgb(64, 59, 66);
+background: rgb(30, 29, 31);
 }
 header {
     display: flex;
-    background-color: white;
+    background-color: rgb(24, 21, 21);
     border-radius: 12px;
+    height: 100px;
+}
+.gachi_men {
+    border-radius: 12px;
+    height: 100px;
+    width: 100px;
 }
 .header-wrap {
     display: flex;
@@ -26,16 +32,18 @@ header {
 a {
     display: flex;
     align-items: flex-start;
-    color: rgb(207, 203, 203);
+    color:aquamarine;
 }
 .scoro {
     display: flex;
+    color: aquamarine;
     margin: 0 50px 0 70px;
     font-family: Comic Sans MS, Comic Sans, cursive;
 }
 .dad {
     display: flex;
     margin: 20px 0 20px 20px;
+    text-align: center;
 }
 .Yakov {
     display: flex;
@@ -47,9 +55,30 @@ a {
     height: 100px;
     border-radius: 12px;
 }
+.gif {
+    text-align: center;
+    width: 11130000px;
+    height: 900px;
+    border-radius: 12px;
+    overflow: hidden;
+        position: relative;
+}
 .info-dad {
     font-family: Comic Sans MS, Comic Sans, cursive;
 }
-.info-Yakov {
+p {
     font-family: Comic Sans MS, Comic Sans, cursive;
+    color:aquamarine
+}
+.hyi {
+    
+text-align: center;
+color:aquamarine
+}
+.photo {
+    box-align: center;
+    margin: 20px 0 20px 50px;
+    border-radius: 12px;
+    width: 150px;
+    height: 200px;
 }
